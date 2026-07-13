@@ -1,4 +1,0 @@
-const fs = require('fs');
-const c = fs.readFileSync('assets/index-new.js', 'utf8');
-const idx = c.indexOf('placeholder:');
-if (idx > -1) console.log(c.substring(idx, idx + 200));
